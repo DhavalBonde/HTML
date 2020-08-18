@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>GT-R</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: century Gothic;
+  background-color: white;
+  color: #000;
+}
+
+.parallax {
+  background-image: url(https://wallpapercave.com/wp/wp2499926.jpg);
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.footer{
+  bottom: 0;
+  background-color: white;
+  color: #000;
+  height: 100px;
+  text-align: center;
+}
+
+nav{
+  top: 0;
+   height: 25px;
+   background-color: white;
+   margin: 10px;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  color: #000;
+  background-color: white;
+}
+
+nav a:hover{
+  color: #999;
+  transition: 0.3s;
+}
+
+.text{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 30;
+  color: white;
+}
+</style>
+</head>
+<body>
+  <nav>
+    <a href ="https://www.nissan.in/vehicles/new/GT-R.html" target="_blank">Website</a>
+    <a href ="https://www.nissan.in/vehicles/new/GT-R/performance.html" target="_blank">Performance</a>
+    <a href ="https://www.nissanusa.com/vehicles/sports-cars/gt-r/specs/compare-specs.html" target="_blank">Specs</a>
+    <a href="https://flamgenix.github.io" target="_blank">My Website</a>
+  </nav>
+
+<div class="parallax">
+
+  <div class="text">The Nissan GT-R is a high-performance sports car and grand tourer produced by Nissan, which was unveiled in 2007.
+     It is the successor to the Skyline GT-R, although no longer part of the Skyline range itself, that name now being used for
+      Nissan's luxury-sport market</div>
+</div>
+
+
+<div class="parallax"></div>
+<div class="footer">
+<b>Created by: Dhaval</b>
+</div>
+</body>
+</html>
