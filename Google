@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+         body a{
+           color: black;
+           font-family: arial;
+         }
+
+        .upper_nav a{
+          text-decoration: none;
+          font-family: arial;
+          padding: 5px;
+          float: right;
+          margin: 10px;
+          display: inline-block;
+         }
+
+         i{
+         }
+
+         .apps{
+           height: auto;
+           width: 5px;
+         }
+
+         .gm_logo{
+           height: 40px;
+           width: 40px;
+           background-color: #000;
+           border-radius: 50%;
+           margin-top: -9px;
+         }
+
+         .a a{
+           margin-top: 15px;
+         }
+
+         .logo img{
+           width: 19%;
+           margin-left: 40.5%;
+           margin-top: 5%;
+         }
+
+         .input input{
+           padding: 9px;
+           width: 50%;
+           margin-left: 25%;
+         }
+
+          .buttons{
+            margin-left: 36%;
+          }
+
+         .buttons button{
+           padding: 1%;
+           margin: 5%;
+         }
+
+         .langs{
+           margin-left: 43%;
+           margin-right: 43%;
+         }
+
+         .footer{
+           margin-bottom: 1%;
+           background-color: gray;
+           text-align: center;
+         }
+</style>
+  </head>
+  <body>
+<div class="upper_nav">
+  <div class="">
+  <a href="#"><div class="gm_logo"></div></a>
+</div>
+  <a  href="#" class="apps"><i class="material-icons">apps</i></a>
+  <div class="a">
+    <a href="#">Images</a>
+  <a href="#">Gmail</a>
+</div>
+  </div>
+
+  <div class="logo">
+    <img src="https://cdn.vox-cdn.com/thumbor/HqBAiwc9uD1sHBw2Uvac03pCXKE=/0x0:2012x1341/1400x1050/filters:focal(0x0:2012x1341):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt="Google Logo"></img>
+  </div>
+<div class="input">
+  <input></input>
+</div>
+<div class="buttons">
+  <button>Google Search</button><button>I'm Feeling Lucky</button>
+</div>
+
+<div class="langs">
+  Google offered in: blah blah
+</div>
+
+<div class="footer">
+  <h3>Work In Progress</h3>
+</div>
+  </body>
+</html>
